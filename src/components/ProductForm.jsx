@@ -31,6 +31,7 @@ const handleSubmit = () =>{
             onChange={(event) => {
               setName(event.target.value);
             }}
+            
           />
         </label>
       </div>
@@ -46,6 +47,7 @@ const handleSubmit = () =>{
             onChange={(event) => {
               setImage(event.target.value);
             }}
+
           />
         </label>
       </div>
@@ -61,6 +63,7 @@ const handleSubmit = () =>{
             onChange={(event) => {
               setPrice(event.target.value);
             }}
+
           />
         </label>
       </div>
@@ -76,6 +79,7 @@ const handleSubmit = () =>{
             onChange={(event) => {
               setDescription(event.target.value)
             }}
+
             rows={4}
             cols={30}
           />
